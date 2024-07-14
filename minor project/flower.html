@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOU travellers website</title>
+   
+    <link rel="stylesheet" href="flower.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="login1.html">
+
+</head>
+<body>
+
+<!--header section starts-->
+
+    <header>
+
+        <div id="menu-bar" class="fa fa-bars"></div>
+        
+        <a href="#" class="logo"><span>SOU</span>travellers</a> 
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#book">book</a>
+            <a href="#packages">packages</a>
+            <a href="#services">services</a>              
+            <a href="#Review">Review</a>
+            <a href="#contact">contact</a>
+        </nav>
+        <div class="icons">
+            <i class="fa fa-search" id="search-btn"></i>
+            <i class="fa fa-user" id="login-btn"></i>
+        </div>
+        <form action="" class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="search here...">
+            <label for="search-bar" class="fa fa-search"></label>
+        </form>
+    </header>
+    <div class="login-form-container">
+        
+        <i class='fas fa-times-circle' id="form-close"></i>
+
+        <form action="">
+            <h3>login</h3>
+            <input type="email" class="box" placeholder="enter your email">
+            <input type="password" class="box" placeholder="enter your password">
+            <input type="submit" value="login now" class="btn">
+            <input type="checkbox" id="remember">
+            <label for="remember">remember me</label>
+            <p>forget password?<a href="#">click here</a></p>
+            <p>don't have and Account?<a href="#">register now</a></p>
+        </form> 
+
+    </div>
+    <!--home section start-->
+    <section class="home" id="home">
+            <div class="content">
+                <h3>adventure is worthwhile</h3>
+                <p>dicover new places with us, adventure awaits</p>
+                <a href="#" class="btn">discover more</a>
+            </div>
+            <div class="controls">
+                <span class="vid-btn active" data-src="https://assets.mixkit.co/videos/preview/mixkit-palm-tree-on-a-sunny-day-4645-large.mp4"></span>"
+                <span class="vid-btn active" data-src="https://assets.mixkit.co/videos/preview/mixkit-waves-coming-to-the-beach-5016-large.mp4"></span>"
+                <span class="vid-btn active" data-src="https://v1.cdnpk.net/videvo_files/video/free/video0534/large_watermarked/_import_62eb768a679e11.10676719_FPpreview.mp4" type="video/mp4"></span>"
+                <span class="vid-btn active" data-src="https://v2.cdnpk.net/videvo_files/video/premium/partners0124/large_watermarked/BB_95496b88-b7a9-4859-8070-6666872e5076_FPpreview.mp4" type="video/mp4">
+                </span>
+                <span class="vid-btn active" data-src="https://assets.mixkit.co/videos/preview/mixkit-venice-central-canal-at-night-4646-large.mp4" type="video/mp4">
+                </span>
+            </div>
+            <div class="video-container">
+                <div class="swiper-slide"></div>
+                <video src="https://assets.mixkit.co/videos/preview/mixkit-palm-tree-on-a-sunny-day-4645-large.mp4" id="video-slider" loop autoplay muted></video>
+            </div>
+    </section>
+    <!--home section end-->
+    <section class="book" id="book">
+        <h1 class="heading">
+            <span>b</span>
+            <span>o</span>
+            <span>o</span>
+            <span>k</span>
+            <span class="space"></span>
+            <span>n</span>
+            <span>o</span>
+            <span>w</span>
+        </h1>
+        <div class="row">
+            <div class="image">
+                <img src="https://www.clipartbest.com/cliparts/di8/ob9/di8ob9M7T.jpeg" alt="">
+            </div>
+            <form action="">
+                <div class="inputbox">
+                    <h3>where to </h3>
+                    <input type="text" placeholder="place name">
+                </div>
+                <div class="inputbox">
+                    <h3>how many</h3>
+                    <input type="number" placeholder="number of guests">
+                </div>
+                <div class="inputbox">
+                    <h3>arrivals</h3>
+                    <input type="date">
+                </div>
+                <div class="inputbox">
+                    <h3>leaving</h3>
+                    <input type="date">
+                </div>
+                <input type="submit" class="btn" value="book now">
+            </form>
+        </div>
+    </section>
+    <!--package section start-->
+    <section class="packages" id="packages">
+        <h1 class="heading">
+            <span>p</span>
+            <span>a</span>
+            <span>c</span>
+            <span>k</span>
+            <span>a</span>
+            <span>g</span>
+            <span>e</span>
+            <span>s</span>
+        </h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="https://cdn.britannica.com/26/84526-050-45452C37/Gateway-monument-India-entrance-Mumbai-Harbour-coast.jpg" alt="">
+                <div class="content">
+                    <h3><ion-icon name="location"></ion-icon>mumbai</h3>
+                    <p>lorem ipsum dolor sit amet consectetur adipisicing elit.veritatis,nam!</p>
+                    <div class="stars">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>
+                    </div>
+                    <div class="price">$90.0<span>$120.0</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="https://cdn.britannica.com/86/156586-050-EFB37140/Harbour-Bridge-Sydney.jpg" alt="">
+                <div class="content">
+                    <h3><ion-icon name="location"></ion-icon>sydney</h3>
+                    <p>lorem ipsum dolor sit amet consectetur adipisicing elit.veritatis,nam!</p>
+                    <div class="stars">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>
+                    </div>
+                    <div class="price">$90.0 <span>$120.0</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="https://www.japan-guide.com/g18/3009_01.jpg" alt="">
+                <div class="content">
+                    <h3><ion-icon name="location"></ion-icon>tokyo</h3>
+                    <p>lorem ipsum dolor sit amet consectetur adipisicing elit.veritatis,nam!</p>
+                    <div class="stars">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>
+                    </div>
+                    <div class="price">$90.0 <span>$120.0</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="https://s.yimg.com/ny/api/res/1.2/m1IEk6KhyXuvSSBZ.H.94w--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTM2MA--/https://media.zenfs.com/en/gobankingrates_644/1d026a2f97625320e52c4925bf7aa188" alt="">
+                <div class="content">
+                    <h3><ion-icon name="location"></ion-icon>hawaii</h3>
+                    <p>lorem ipsum dolor sit amet consectetur adipisicing elit.veritatis,nam!</p>
+                    <div class="stars">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>
+                    </div>
+                    <div class="price">$90.0 <span>$120.0</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="https://media.istockphoto.com/id/1145422105/photo/eiffel-tower-aerial-view-paris.jpg?s=612x612&w=0&k=20&c=sFn6FwTJR0TpX3rP_W4VHrbkTB__6l5kr-lkkqdYrtE="" alt="">
+                <div class="content">
+                    <h3><ion-icon name="location"></ion-icon>peris</h3>
+                    <p>lorem ipsum dolor sit amet consectetur adipisicing elit.veritatis,nam!</p>
+                    <div class="stars">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>
+                    </div>
+                    <div class="price">$90.0 <span>$120.0</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="https://static.theceomagazine.net/wp-content/uploads/2023/06/26102050/48-hours-in-Bangkok1.jpg" alt="">
+                <div class="content">
+                    <h3><ion-icon name="location"></ion-icon>bang-kok</h3>
+                    <p>lorem ipsum dolor sit amet consectetur adipisicing elit.veritatis,nam!</p>
+                    <div class="stars">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>
+                    </div>
+                    <div class="price">$90.0<span>$120.0</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="https://www.telegraph.co.uk/multimedia/archive/02423/london_2423609b.jpg?imwidth=680" alt="">
+                <div class="content">
+                    <h3><ion-icon name="location"></ion-icon>london</h3>
+                    <p>lorem ipsum dolor sit amet consectetur adipisicing elit.veritatis,nam!</p>
+                    <div class="stars">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>
+                    </div>
+                    <div class="price">$90.0<span>$120.0</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="https://images.tv9hindi.com/wp-content/uploads/2022/10/Why-America-called-USA.jpg" alt="">
+                <div class="content">
+                    <h3><ion-icon name="location"></ion-icon>America</h3>
+                    <p>lorem ipsum dolor sit amet consectetur adipisicing elit.veritatis,nam!</p>
+                    <div class="stars">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>
+                    </div>
+                    <div class="price">$90.0<span>$120.0</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="https://eastasiaforum.org/wp-content/uploads/2023/10/2023-09-28T010155Z_1482952485_RC26G3AQ08D8_RTRMADP_3_CHINA-ECONOMY-TOURISM-scaled.jpg" alt="">
+                <div class="content">
+                    <h3><ion-icon name="location"></ion-icon>china</h3>
+                    <p>lorem ipsum dolor sit amet consectetur adipisicing elit.veritatis,nam!</p>
+                    <div class="stars">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>
+                    </div>
+                    <div class="price">$90.0<span>$120.0</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+ <!--package section end-->       
+        </div>
+    </section>
+<!--service section start-->
+     <section class="services" id="services">
+        <h1 class="heading">
+            <span>s</span>
+            <span>e</span>
+            <span>r</span>
+            <span>v</span>
+            <span>i</span>
+            <span>c</span>
+            <span>e</span>
+            <span>s</span>
+        </h1>
+
+         <div class="box-container">
+
+            <div class="box">
+                <i class="fas fa-hotel"></i>
+                <h3>affordable hotels</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum sed maiores quas vero ex fuga maxime quibusdam? Magni, aspernatur tempora.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-utensils"></i>
+                <h3>food and drinks</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum sed maiores quas vero ex fuga maxime quibusdam? Magni, aspernatur tempora.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-bullhorn"></i>
+                <h3>safty guide</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum sed maiores quas vero ex fuga maxime quibusdam? Magni, aspernatur tempora.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-globe-asia"></i>
+                <h3>around the world</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum sed maiores quas vero ex fuga maxime quibusdam? Magni, aspernatur tempora.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-plane"></i>
+                <h3>fastest travel</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum sed maiores quas vero ex fuga maxime quibusdam? Magni, aspernatur tempora.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-hiking"></i>
+                <h3>adventure</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum sed maiores quas vero ex fuga maxime quibusdam? Magni, aspernatur tempora.</p>
+            </div>
+         </div>
+     </section>
+<!--service section end here-->
+
+<!--gallerey section end here-->
+
+<!--review section start--> 
+    <section class="Review" id="Review">
+        <h1 class="heading">
+            <span>R</span>
+            <span>e</span>
+            <span>v</span>
+            <span>i</span>
+            <span>e</span>
+            <span>w</span>
+        </h1>
+        <div class=" swiper mySwiper Review-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="https://static.vecteezy.com/system/resources/thumbnails/018/729/859/small/rating-icon-grade-illustration-sign-review-symbol-comment-logo-vector.jpg" alt="">
+                        <h3>johny deo</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                            Voluptatum est rem molestias repellat iusto, 
+                            molestiae beatae amet, accusamus aut ipsam 
+                            iure vitae quam. Quasi rem, dolores veniam dolore eius impedit?</p>
+                            <div class="stars">
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star-outline"></ion-icon>
+                            </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="https://static.vecteezy.com/system/resources/thumbnails/018/729/859/small/rating-icon-grade-illustration-sign-review-symbol-comment-logo-vector.jpg" alt="">
+                        <h3>Archie</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                            Voluptatum est rem molestias repellat iusto, 
+                            molestiae beatae amet, accusamus aut ipsam 
+                            iure vitae quam. Quasi rem, dolores veniam dolore eius impedit?</p>
+                            <div class="stars">
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star-outline"></ion-icon>
+                            </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="https://static.vecteezy.com/system/resources/thumbnails/018/729/859/small/rating-icon-grade-illustration-sign-review-symbol-comment-logo-vector.jpg" alt="">
+                        <h3>Henry</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                            Voluptatum est rem molestias repellat iusto, 
+                            molestiae beatae amet, accusamus aut ipsam 
+                            iure vitae quam. Quasi rem, dolores veniam dolore eius impedit?</p>
+                            <div class="stars">
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star-outline"></ion-icon>
+                            </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+<!--Review section end here-->
+<!--contact section start here-->
+    <section class="contact">
+        <h1 class="heading" id="contact">
+            <span>c</span>
+            <span>o</span>
+            <span>n</span>
+            <span>t</span>
+            <span>a</span>
+            <span>c</span>
+            <span>t</span>
+        </h1>
+        <div class="row">
+            <div class="image">
+                <img src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/201909/contact-details-3381225_1280.jpeg" alt="">
+            </div>
+            <form action="#">
+                <div class="inputbox">
+                    <input type="text" placeholder="name">
+                    <input type="email" placeholder="email">
+                </div>
+                <div class="inputbox">
+                    <input type="number" placeholder="number">
+                    <input type="email" placeholder="subject">
+                </div>
+                <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+                <input type="submit" class="btn" value="send message">
+            </form>
+
+        </div>
+    </section>
+
+
+<section class="brand-container">
+    <div class="brand-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"> <img src="" alt=""></div>
+            <div class="swiper-slide"> <img src="" alt=""></div>
+            <div class="swiper-slide"> <img src="" alt=""></div>
+            <div class="swiper-slide"> <img src="" alt=""></div>
+            <div class="swiper-slide"> <img src="" alt=""></div>
+        </div>
+    </div>
+</section>
+<!--contact section end here-->
+<!--about section start here-->
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>about us</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia nisi culpa, veniam repellendus perferendis qui, nobis ea magni nostrum placeat aliquam? Doloribus natus quisquam dignissimos officiis. Quos adipisci vel laboriosam.</p>
+        </div>
+        <div class="box">
+            <h3>branch locations</h3>
+            <a href="#">india</a>
+            <a href="#">london</a>
+            <a href="#">usa</a>
+            <a href="#">japan</a>
+            <a href="#">france</a>
+        </div>
+        <div class="box">
+            <h3>quick link</h3>
+            <a href="#">home</a>
+            <a href="#">book</a>
+            <a href="#">packages</a>
+            <a href="#">Services</a>
+            <a href="#">Review</a>
+            <a href="#">contact</a>
+        </div>
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="https://www.facebook.com/Vipul kumavat/">facebook</a>
+            <a href="https://www.instagram.com/vipul___kumawatx/">instgram</a>
+            <a href="#">twitter</a>
+            <a href="https://www.linkedin.com/in/vipul-kumawat-4214a3317">linkdin</a>
+        </div>
+    </div>
+<div class="credit">created by <span>Vipul kumawat</span>! all rightes reserved!</div>
+</section>
+<!--about section end here-->
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="flower.js"></script>
+</body>
+</html>
